@@ -1,0 +1,36 @@
+{{ $featured_image := .Params.featured }}
+{{ $excerpt := .Params.hero_excerpt }}
+<body>
+	<div class="container-fluid bg-white px-0">
+		<header>
+			{{ partial "navigation.html" . }}
+			<div class="container-fluid px-0 mb-5">
+				{{ if $featured_image }}
+					{{ $featured_image := (trim $featured_image "/") | absURL }}
+					<div class="hero" style="background: url('{{ $featured_image }}'); background-size: cover; background-position: center;">
+				{{ else }}
+					<div class="hero" style="background-color: #eaac40">
+				{{ end }}
+					<div class="overlay-gradient">
+						<div class="container">
+							<div class="row">
+								<div class="col-12">
+									<div class="hero-content">
+										<h1>
+											{{- .Title -}}
+										</h1>
+										{{ if $excerpt }}
+											<div class="hero-excerpt">
+												{{ $excerpt }}
+											</div>
+										{{ else }}
+
+										{{ end }}
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>

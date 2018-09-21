@@ -1,0 +1,25 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+<main>
+    <article>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row breadcrumbs mt-5">
+                    <!-- <div class="col-12 text-right d-none d-md-block">
+                        <strong>Sidst opdateret
+                            <time datetime="{{ .Page.Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
+                                {{- .Page.Lastmod.Format "2. January 2006" -}}
+                            </time>
+                        </strong>
+                    </div>
+                </div> -->
+                    <div class="row mt-5">
+                        <div class="col-12 col-md-8 offset-md-2">
+                            {{- .Content -}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </article>
+</main>
+{{ partial "footer.html" . }}

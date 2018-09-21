@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Homepage</title>
+    <link>/pages/</link>
+    <description>Recent content in Pages on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Sep 2018 11:45:38 +0200</lastBuildDate>
+    
+	<atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kampagne: Lad os sammen skrue op for taknemmeligheden</title>
+      <link>/pages/pressekontakt/</link>
+      <pubDate>Fri, 14 Sep 2018 11:45:38 +0200</pubDate>
+      
+      <guid>/pages/pressekontakt/</guid>
+      <description>Undersøgelser viser det igen og igen: Det står på mange måder skidt til med unges trivsel. Senest viste Den Nationale Sundhedsprofil fra Sundhedsstyrelsen, at alt for mange unge kæmper med stress og dårlig trivsel - og at udviklingen går desværre den gale vej.
+Det er baggrunden for, at vi har taget initiativ til “Tak for…”-kampagnen. Forskning viser nemlig, at små daglige taknemmelighedsøvelser gør os gladere, mindre stressede og giver bedre søvn.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Homepage</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Sep 2018 00:03:19 +0200</lastBuildDate>
+    
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Taknemmelighed: Din genvej til mere glæde</title>
+      <link>/posts/taknemmelighed/</link>
+      <pubDate>Fri, 14 Sep 2018 00:03:19 +0200</pubDate>
+      
+      <guid>/posts/taknemmelighed/</guid>
+      <description>Du kender det måske: Du har været på kanotur eller på festival. Fem dage i pløre og mudder. Og nu skriger hele din krop på et varmt brusebad.
+Derhjemme stryger du direkte ud i brusekabinen, du drejer på håndtaget og vupti: Varmt vand fosser ud over dig. Og det føles som en vild luksus.
+Men så går der et par timer eller dage, og bruseren mister ligesom sin magi. Du begynder at tage den for givet.</description>
+    </item>
+    
+    <item>
+      <title>Tak for sidst</title>
+      <link>/posts/tak-for-sidst/</link>
+      <pubDate>Thu, 13 Sep 2018 22:23:34 +0200</pubDate>
+      
+      <guid>/posts/tak-for-sidst/</guid>
+      <description>Ja. Den er god nok. Jeg er så sjov, at jeg lige spinner et par ordspil op for at lave demoindlæg. Det kan sørme godt mærkes, at det er lillefredag. Eller noget.</description>
+    </item>
+    
+    <item>
+      <title>Tak for alt</title>
+      <link>/posts/tak-for-alt/</link>
+      <pubDate>Thu, 13 Sep 2018 22:23:24 +0200</pubDate>
+      
+      <guid>/posts/tak-for-alt/</guid>
+      <description>Jump, jump. Get down and stomp. For the boys in blue and yellow.</description>
+    </item>
+    
+    <item>
+      <title>Skru op for taknemligheden</title>
+      <link>/posts/prelaunch/</link>
+      <pubDate>Tue, 11 Sep 2018 12:24:06 +0200</pubDate>
+      
+      <guid>/posts/prelaunch/</guid>
+      <description>Vi skruer op for taknemligheden. Vær med til at sprede det gode ord. Vi skruer op for taknemligheden. Vær med til at sprede det gode ord. Vi skruer op for taknemligheden. Vær med til at sprede det gode ord.
+Formularen herunder er indsat med en shortcode
+Den sag vil jeg gerne støtte op om…Fantastisk. Så skal du bare udfylde formularen herunder:
+Navn Email *Kommentarer    </description>
+    </item>
+    
+  </channel>
+</rss>

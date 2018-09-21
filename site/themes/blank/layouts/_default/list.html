@@ -1,0 +1,12 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+	<main>
+		This is a list
+		{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+		{{ range $paginator.Pages }}
+			{{ partial "summary.html" . }}
+		{{ end }}
+		{{ partial "pagination.html" . }}
+	</main>
+<!-- {{ partial "sidebar.html" . }} -->
+{{ partial "footer.html" . }}

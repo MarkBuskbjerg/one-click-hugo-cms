@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Landings on Homepage</title>
+    <link>/landing/</link>
+    <description>Recent content in Landings on Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Sep 2018 10:15:09 +0200</lastBuildDate>
+    
+	<atom:link href="/landing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bestil materiale til din skole</title>
+      <link>/landing/bestil-materiale/</link>
+      <pubDate>Thu, 13 Sep 2018 10:15:09 +0200</pubDate>
+      
+      <guid>/landing/bestil-materiale/</guid>
+      <description>Bestil materialet herUdfyld formularen herunder, så sender vi materiale afsted til dig.
+Skolens navn Vej og husnummer By Postnummer Navn på kontaktperson Email *  </description>
+    </item>
+    
+    <item>
+      <title>Lad os sammen skrue op for taknemmeligheden</title>
+      <link>/landing/help/</link>
+      <pubDate>Tue, 11 Sep 2018 12:24:06 +0200</pubDate>
+      
+      <guid>/landing/help/</guid>
+      <description>Nyt sengetøj, frisk kaffe eller din bedste ven.
+Hverdagen er fuld af små og store ting, som det er værd at sige tak for. Tit ræser de bare forbi os. Vi har for travlt. Vi Kommer til at tage de gode ting for givet.
+Men det skal være slut nu.
+D. 1. oktober sparker vi nemlig gang i kampagnen “Tak for…”.
+Sammen øver vi os på at få øje på de gode ting i hverdagen.</description>
+    </item>
+    
+  </channel>
+</rss>

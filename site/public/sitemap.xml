@@ -3,18 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/brewing-chemex/</loc>
-    <lastmod>2017-01-04T15:04:10+00:00</lastmod>
+    <loc>/pages/pressekontakt/</loc>
+    <lastmod>2018-09-14T11:45:38+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/jamaica-blue/</loc>
-    <lastmod>2017-01-04T15:04:10+00:00</lastmod>
+    <loc>/posts/taknemmelighed/</loc>
+    <lastmod>2018-09-14T00:03:19+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/making-sense/</loc>
-    <lastmod>2016-12-17T15:04:10+00:00</lastmod>
+    <loc>/posts/tak-for-sidst/</loc>
+    <lastmod>2018-09-13T22:23:34+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/tak-for-alt/</loc>
+    <lastmod>2018-09-13T22:23:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/landing/bestil-materiale/</loc>
+    <lastmod>2018-09-13T10:15:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/landing/help/</loc>
+    <lastmod>2018-09-11T12:24:06+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/prelaunch/</loc>
+    <lastmod>2018-09-11T12:24:06+02:00</lastmod>
   </url>
   
   <url>
@@ -23,21 +43,25 @@
   </url>
   
   <url>
-    <loc>/contact/</loc>
-  </url>
-  
-  <url>
     <loc>/</loc>
-    <lastmod>2017-01-04T15:04:10+00:00</lastmod>
+    <lastmod>2018-09-14T11:45:38+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/products/</loc>
+    <loc>/landing/</loc>
+    <lastmod>2018-09-13T10:15:09+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2017-01-04T15:04:10+00:00</lastmod>
+    <loc>/pages/</loc>
+    <lastmod>2018-09-14T11:45:38+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2018-09-14T00:03:19+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -47,7 +71,12 @@
   </url>
   
   <url>
-    <loc>/values/</loc>
+    <loc>/tak/tak-help/</loc>
+  </url>
+  
+  <url>
+    <loc>/tak/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>

@@ -1,0 +1,40 @@
+{{ $featured_image := .Params.featured }}
+
+{{ partial "head.html" . }}
+
+<body>
+	<div class="container-fluid bg-white px-0">
+		<header>
+			{{ partial "navigation.html" . }}
+			<div class="landing-hero">
+				<div class="overlay-gradient">
+					
+					<div class="landing-hero-content">
+						<h1 class="text-center">TAK!</h1>
+					</div>
+				</div>
+			</div>
+			
+		</header>
+		<main>
+			<article>
+				<main>
+					<div class="container-fluid pt-5">
+						<div class="container pt-5">
+						<div class="row">
+							<div class="col-lg-6 offset-lg-3">
+								{{- .Content -}}
+								<img src="../../../../dist/images/balloon.jpg" class="w-100 px-5 mb-5">
+							</div>
+						</div>
+						
+						</div>
+					</div>
+					<div>
+						{{ template "_internal/disqus.html" . }}
+					</div>
+				</main>
+			</article>
+		</main>
+<!-- {{ partial "sidebar.html" . }} -->
+{{ partial "footer.html" . }}

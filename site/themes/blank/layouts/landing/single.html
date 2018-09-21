@@ -1,0 +1,51 @@
+{{ $featured_image := .Params.featured }}
+
+{{ partial "head.html" . }}
+
+<body>
+	<div class="container-fluid bg-white px-0">
+		<header>
+			{{ partial "navigation.html" . }}
+
+			<div class="container-fluid px-0 mb-5">
+				{{ if $featured_image }}
+				{{ $featured_image := (trim $featured_image "/") | absURL }}
+				<div class="landing-hero" style="background: url('{{ $featured_image }}'); background-size: cover; background-position: center;">
+					{{ else }}
+					<div class="landing-hero" style="height: 370px;">
+						{{ end }}
+						<div class="overlay-gradient">
+							<div class="container">
+								<div class="row">
+									<img src="/images/blive-gladere.png" style="position: absolute; top: 180px; left: 41%; height: 310px;">
+									<div class="col-8 mx-auto text-center">
+										<div class="landing-hero-content">
+											<h1>
+												{{- .Title -}}
+											</h1>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</header>
+		<main>
+			<article>
+				<main>
+					<div class="container-fluid pt-5">
+						<div class="container pt-5">
+							<div class="row">
+								<div class="col-12 col-sm-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
+									{{- .Content -}}
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</main>
+			</article>
+		</main>
+		<!-- {{ partial "sidebar.html" . }} -->
+		{{ partial "footer.html" . }}

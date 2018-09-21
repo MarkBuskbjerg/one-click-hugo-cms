@@ -1,0 +1,266 @@
+/* {
+  outline: 1px solid red;
+}*/
+
+#TableOfContents ul li {
+    margin-bottom: 1em;
+  }
+  
+  body {
+    font-family: raleway, Arial, sans-serif;
+    font-size: 19px;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: proxima-nova,sans-serif;
+  }
+  
+  h1 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+
+  p {
+    margin: 0 0 1.6em;
+  }
+
+/** Navigation **/
+.navbar {
+  min-height: 80px;
+  font-family: proxima-nova, sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #999;
+  padding: 0 15px 0 30px;
+  font-size: 15px;
+}
+
+ /** Header section **/
+ .hero {
+  min-height: 200px;
+  margin: 0 auto;
+}
+
+ .hero h1 {
+  max-width: 700px;
+}
+
+.hero-excerpt {
+  color: #fff;
+  max-width: 550px;
+  font-weight: 500;
+  font-family: proxima-nova, sans-serif;
+}
+
+.landing-hero {
+  margin: 0 auto;
+}
+
+.hero .overlay-gradient {
+  background: rgba(234, 172, 64, 0.8);
+  height: 100%;
+  width: 100%;
+}
+
+.landing-hero .overlay-gradient {
+  background: rgba(234, 172, 64, 1);
+  height: 100%;
+  width: 100%;
+}
+  
+.hero .hero-content {
+    padding: 100px 0;
+}
+
+.landing-hero .landing-hero-content {
+  padding: 50px 0;
+}
+
+
+/** Form styles **/
+input {
+  padding: 10px 20px;
+  
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #333;
+  box-sizing: border-box;
+  line-height: normal;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+}
+  
+.input-sides {
+  margin-bottom: 40px;
+  position: relative;
+}
+  
+.input-sides::before {
+  left: 0;
+}
+  
+.input-sides::after {
+  right: 0;
+}
+  
+.input-sides::before,
+.input-sides::after {
+  content: " ";
+  width: 2px;
+  height: 8px;
+  background-color: currentColor;
+  position: absolute;
+  bottom: 0;
+}
+
+.input[type="submit"],
+.button,
+button {
+  width: auto;
+  position: relative;
+  border-bottom: 2px solid #333;
+  color: #eaac40;
+  font-size: 19px;
+  line-height: normal;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* Breadcrumb */
+.breadcrumbs {
+  color: #333;
+  font-family: proxima-nova, sans-serif;
+  font-size: 15px;
+}
+
+.info-social {
+  margin-top: 0!important;
+  position: absolute!important;
+  right: 15px;
+  top: -80px;
+}
+
+.info-social .icon {
+  margin-left: 10px;
+  float: left;
+}
+
+.icon-facebook {
+  background-image: url(../images/facebook-icon.svg);
+}
+
+.icon-twitter {
+  background-image: url(../images/twitter-icon.svg);
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #EAAC40;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  text-indent: 9999px;
+  overflow: hidden;
+  display: block;
+  cursor: pointer;
+}
+
+.quote {
+  background-color: #EAAC40;
+  color: #fff;
+  margin-bottom: 60px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.quote .quote-source {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.quote .quote-content {
+  font-size: 35px;
+  line-height: 1.2;
+}
+
+/** Profile **/
+.profile .title::after {
+  content: " ";
+  margin: 15px auto -10px;
+  height: 1px;
+  width: 20px;
+  display: block;
+  position: relative;
+  background-color: rgb(175, 175, 175);
+}
+.profile a {
+  color: rgb(102, 102, 102);
+  text-decoration: underline;
+}
+
+.profile img {
+    margin: 0 auto 20px;
+    width: 75%;
+    border: 15px solid #f7f7f7;
+    border-radius: 50%;
+}
+
+/** Images **/
+
+img.float-right {
+  margin-left: 30px;
+}
+
+img.float-left {
+  margin-right: 30px;
+}
+
+.footer-info path.logo {
+  fill: #fff;
+}
+
+/** Footer **/
+.footer-nav {
+  background-color: #f7f7f7;
+  color: rgb(102, 102, 102);
+  font-size: 15px;
+  padding: 60px 15px;
+}
+
+.footer-nav h4 {
+  font-size: 19px;
+}
+
+.footer-nav a {
+  color: rgb(102, 102, 102);
+}
+
+.footer-nav ul {
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+.footer-nav ul li {
+  list-style-type: none;
+  margin-bottom: 6px;
+}
+
+.footer-info {
+  background-color: #eaac40;
+  color: #fff;
+}
+
+.footer-info a {
+  color: #fff;
+}

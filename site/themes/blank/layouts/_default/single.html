@@ -1,0 +1,32 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+<main>
+	<article>
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row breadcrumbs mt-5">
+          <div class="col-12 text-right d-none d-md-block">
+            <strong>Sidst opdateret
+              <time datetime="{{ .Page.Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
+                {{- .Page.Lastmod.Format "2. January 2006" -}}
+              </time>
+            </strong>
+            <div class="info-social">
+                <a class="icon icon-facebook" href="#" data-event-action="facebook" data-event-category="share" data-event-label="{{ .Title }}" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u={{ .Permalink  }}','share','width=560,height=600');return false;" target="_blank">facebook</a>
+                <a class="icon icon-twitter" href="#" data-event-action="twitter" data-event-category="share" data-event-label="{{ .Title }}" onclick="window.open('https://twitter.com/home?status={{ .Permalink }}','share','width=700,height=250');return false;" target="_blank">twitter</a>
+                <!-- <a class="icon icon-print" href="#" onclick="window.print();">Print</a> -->
+            </div>
+          </div>
+          
+          
+        </div>
+        <div class="row mt-5">
+          <div class="col-12 col-md-8 offset-md-2">
+            {{- .Content -}}
+          </div>
+        </div>
+      </div>
+    </div>
+	</article>
+</main>
+{{ partial "footer.html" . }}
